@@ -1,0 +1,15 @@
+﻿<Window x:Class="HoursTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HoursTracker"
+        mc:Ignorable="d"
+        Title="Hours Tracker" Height="167.317" Width="287.683">
+    <Grid>
+        <Button x:Name="Button_ToggleTimer" Content="Clock-in" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,55,0,0" Click="Button_ToggleTimer_Click"/>
+        <Label x:Name="lblMessage" Content="Clock-in to start." HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top"/>
+        <Label Content="Welcome to Hours Tracker" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="16" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
